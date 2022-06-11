@@ -1,0 +1,33 @@
+.App {
+    padding: 2em;
+}
+
+.container {
+    display: flex;
+    gap: 3em;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.input-group input {
+    padding: .5em 1em;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-group .inputs {
+    display: flex;
+    flex-direction: row;
+    gap: .5em;
+}
+
+.input-group .inputs input {
+    width: 50%;
+}
